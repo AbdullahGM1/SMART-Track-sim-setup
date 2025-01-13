@@ -88,11 +88,26 @@ make px4_sitl
 ## Run the Packages
 
 1. `l2d_detection` Package:
+
+This will run the simulation (Obsoobserver Drone with a lidar point cloud and a gimbal camera) and and the `l2d_detection` node.
 ```bash
 ros2 launch l2d_detection depth_detection.launch.py
 ```
 
 2. `l2i_fusion_detection` Package:
+
+This will run the simulation (Obsoobserver Drone with a lidar point cloud and a gimbal camera) and the `l2i_fusion_detection` node.
+
 ```bash
 ros2 launch l2i_fusion_detection lidar_fusion_detection.launch.py
 ```
+## Run the Target Drone Launch File:
+```bash
+ros2 launch smart_track target.launch.py
+```
+
+## Run the QGC:
+Run the QGC out of the container to control the drones; Obsoobserver & Target Drones. 
+
+
+
