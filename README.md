@@ -85,3 +85,14 @@ Execute in `/shared_volume/PX4-Autopilot`:
 ```bash
 make px4_sitl
 ```
+## Run the Packages
+
+1. `l2d_detection` Package:
+```bash
+ros2 launch l2d_detection depth_detection.launch.py
+```
+
+2. `l2i_fusion_detection` Package:
+```bash
+ros2 launch l2i_fusion_detection lidar_fusion_detection.launch.py
+```
