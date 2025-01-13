@@ -107,7 +107,7 @@ ros2 launch smart_track target.launch.py
 ```
 
 ## Run the QGC:
-Run the QGC out of the container to control the drones; Obsoobserver & Target Drones. 
+Run the QGC out of the container to control the drones; Observer & Target Drones. 
 
 
 
