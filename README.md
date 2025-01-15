@@ -25,7 +25,7 @@ cd smart_track
 Clone these packages into `/shared_volume/ros2_ws/src`:
 * [l2d_detection](https://github.com/AbdullahGM1/l2d_detection)
 * [l2i_fusion_detection](https://github.com/AbdullahGM1/l2i_fusion_detection/tree/main)
-* [yolo_ros](https://github.com/AbdullahGM1/yolo_ros)
+* [yolo_ros](https://github.com/AbdullahGM1/yolo_ros) > Just Clone the package, don't follow the instructions in the repo - it will cause issues. 
 * [SMART-Track-sim-setup](https://github.com/AbdullahGM1/SMART-Track-sim-setup.git)
 
 > ### Follow the packages instlation process
