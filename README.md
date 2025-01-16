@@ -33,11 +33,12 @@ Clone these packages into `/shared_volume/ros2_ws/src`:
 
 ## 🔧 Building the Packages
 
-### 1. Build YOLO Messages & Yolo Ros
+### 1. Build YOLO Messages , Yolo Ros, & YOLO Bringup
 ```bash
 cd ~/ros2_ws
 colcon build --packages-select yolo_msgs
-colcon build --packages-select yolo_ros  
+colcon build --packages-select yolo_ros
+colcon build --packages-select yolo_bringup
 ```
 
 ### 2. Build l2i Fusion Detection package
